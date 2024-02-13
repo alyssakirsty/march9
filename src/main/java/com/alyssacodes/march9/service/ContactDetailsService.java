@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.alyssacodes.march9.dal.ContactDetailsRepo;
+import com.alyssacodes.march9.model.ContactDetails;
 
 @Service
 public class ContactDetailsService {
@@ -16,5 +17,8 @@ public class ContactDetailsService {
 		this.contactDetailsRepo = contactDetailsRepo;
 	}
 	
+	public void saveContactDetials(ContactDetails contactDetails) {
+		this.contactDetailsRepo.save(contactDetails);
+	}
 
 }

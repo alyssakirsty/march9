@@ -26,7 +26,7 @@ public class DataLoader implements ApplicationRunner {
 	@Transactional
 	public void run(ApplicationArguments args) throws Exception {
 
-		this.contactDetailsRepo.save(new ContactDetails("alyssa.k.chin@gmail.com", "0477018106"));
+//		this.contactDetailsRepo.save(new ContactDetails("alyssa.k.chin@gmail.com", "0477018106"));
 		
 	}
 
