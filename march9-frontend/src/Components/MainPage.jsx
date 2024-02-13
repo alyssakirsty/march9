@@ -64,7 +64,7 @@ const MainPage =  () => {
             <div className="donate">
 
 
-                <p className="donate">click me $ ---> 
+                <p className="donate">click me $ ---{">"} 
                     <a href="https://gofund.me/39c30795">
                         <img className="horse" src="horse.JPG"></img>
                     </a>
