@@ -1,0 +1,47 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 0.2rem;
+}
+
+.contact-details-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.form-heading {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.donate {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.8rem;
+}
+
+.horse {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    cursor: pointer;
+}
