@@ -17,7 +17,6 @@ const MainPage =  () => {
             "email" : email,
             "phoneNumber" : phoneNumber
         }).then(response => {
-            console.log("submitted")
             setEmail("")
             setPhoneNumber("")
             setOpen(true)
@@ -81,7 +80,7 @@ const MainPage =  () => {
             <Snackbar
                 anchorOrigin={{ vertical: 'bottom' , horizontal: 'center' }}
                 open={open}
-                autoHideDuration={5000}
+                autoHideDuration={3000}
                 onClose={handleClose}
             >
                 <Alert
